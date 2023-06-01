@@ -30,6 +30,7 @@ const PostCard: React.FC<Props> = ({ data }) => {
               <Image
                 src={data.thumbnail}
                 className="object-cover"
+                object-fit="contain"
                 layout="fill"
                 alt={data.title}
               />
